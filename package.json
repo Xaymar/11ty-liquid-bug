@@ -3,6 +3,8 @@
     "@11ty/eleventy": "^3.0.0"
   },  
   "scripts": {
-	"dev": "eleventy --serve"
-  }
+	"bad": "npx @11ty/eleventy",
+	"good": "eleventy"
+  },
+  "type": "module"
 }
